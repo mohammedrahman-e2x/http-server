@@ -1,0 +1,12 @@
+{
+  "name": "https-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-https-proxy": "npx http-server -S -C ./ssl/cert.pem -K ./ssl/key.pem -P http://localhost:3000 -d=false -p 443"
+  },
+  "author": "",
+  "license": "ISC"
+}
