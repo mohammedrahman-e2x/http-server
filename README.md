@@ -12,7 +12,7 @@
    1. (abc.xyz could be anything you want)
 3. Save (may need to be sudo)
 
-## Run the http
+## Example to run a local BC site in https
 1. Run this from the site root directory: `npm run start-https-proxy`
-
-Now any site you have on localhost or 127.0.0.1 will be accessible on `https://abc.xyz`
+2. In a separate terminal, `cd` to a stencil project and run `stencil start`.
+3. Now you should be able to view that site on  `https://abc.xyz`
